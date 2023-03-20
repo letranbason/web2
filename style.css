@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#header_site{
+    background: #2176AE;
+}
+#header_site .logo_site img{
+    height: 30px;
+    width: auto;
+}
+#header_site .menu_site{
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+    padding-left: 4;
+    margin-bottom: 0;
+}
+#header_site .menu_site li a{
+    color: #fff;
+    font-size: 30px;
+}
+
+#header_site .sign-in button{
+    font-size: 25px;
+    border-radius: 10px;
+    border: #2176AE; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#banner_site{
+    height: 100vh;
+    background-image: url('images/Vector8.png');
+    background-size: 100% 100%;}
+
+#banner_site h1{
+    font-size: 40px;
+    color: #fff;
+    column-gap: 200px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#banner_site p{
+    font-size: 16px;
+    color: #fff;
+}
+
+#banner_site .container {
+    transform: translate(0%,80%);
+}
+
+#banner_site .button button{
+    background-color: #FF604A;
+    color: #ffff;
+    width: 50%;
+    border: #2176AE;    
+}
+
+#page2 {
+    height: 100vh;
+}
+#page2 .page2_above {
+    height: 50%;
+}
+#page2 .container {
+    transform: translate(0%,30%);
+}
+
+#page2 h1{
+    color: #2176AE;
+    font-size: 40px;
+}
+
+#page2 .page2_{
+    background-color: antiquewhite;
+    background-color: cover;
+}
+
+#page2 p{
+    color: #2176AE;
+    font-size: 16px;
+}
+
+#page2 .page2_below{
+    background-color: #f4f8fb;
+    background-size: 100%;
+    height:350px;
+}
+
+
+#page2 .picture .logo_Ty img{
+    width: 120px;
+}
+
+#page3 {
+    height: 100vh;
+}
+#page3 .page3_above .conta{
+    height: 50%;
+}
+#page3 .container {
+    transform: translate(0%,30%);
+}
+
+#page3 h1{
+    color: #2176AE;
+    font-size: 40px;
+}
+
+#page3 p{
+    color: #2176AE;
+    font-size: 16px;
+}
+
+#page3 .page3_below{
+    background-color:#f4f8fb;
+    background-size: 100%;
+    transform: translate(0%,40%);
+    height:450px;
+}
+
+#page3 .footerpage3 {
+    height: 50px;
+    background-color: red;
+}
